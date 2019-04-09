@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Test from '@/components/Test'
+import Test from '@/components/TestComponent1'
 
 export default {
   name: 'app',

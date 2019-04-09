@@ -1,7 +1,8 @@
 import { expect } from 'chai'
 import VeeValidate from 'vee-validate'
 import { createLocalVue, shallowMount } from '@vue/test-utils'
-import Test from '@/components/Test'
+
+import Test from '@/components/TestComponent2'
 
 const localVue = createLocalVue()
 localVue.use(VeeValidate)

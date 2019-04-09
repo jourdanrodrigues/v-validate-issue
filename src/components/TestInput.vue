@@ -1,6 +1,6 @@
 <template>
   <label>
-    <input type="email" :value="value" @input="$emit('input', $event.target.value)"/>
+    <input type="email" :value="value"/>
   </label>
 </template>
 
@@ -14,5 +14,5 @@ export default {
 }
 </script>
 
-<style scoped lang="stylus">
+<style scoped>
 </style>
