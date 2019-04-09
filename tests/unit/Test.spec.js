@@ -1,14 +1,14 @@
 import { expect } from 'chai'
 import VeeValidate from 'vee-validate'
 import { createLocalVue, shallowMount } from '@vue/test-utils'
-import FancyInput from '@/components/FancyInput'
+import Test from '@/components/Test'
 
 const localVue = createLocalVue()
 localVue.use(VeeValidate)
 
-describe('FancyInput.vue', () => {
+describe('Test.vue', () => {
   it('renders ok', () => {
-    const wrapper = shallowMount(FancyInput, { localVue })
+    const wrapper = shallowMount(Test, { localVue })
     expect(wrapper.isVueInstance()).to.be.equal(true)
   })
 })
